@@ -1,6 +1,6 @@
 void main(){
   //Nested map(map inside map)
-  Map<String, dynamic> users={
+  Map<String, Map<String, dynamic>> users={
     'user1':{
       'name':'Muhammad',
       'age':25,
